@@ -120,6 +120,35 @@ main{
     flex-basis: calc(100% / 2 - 10px);
 }
 
+/* footer */
+
+.img-footer{
+    height: 30px;
+    width: 30px;
+}
+
+.row-footer{
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.col-footer{
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+.card-footer{
+    display: flex;
+    gap: 10px;
+}
+.img-name{
+    display: flex;
+    gap: 10px;
+}
 /* utils */
 
 .container-side-main{
@@ -135,11 +164,14 @@ main{
     margin-top: 10px;
 }
 
-
 .subtitle{
     text-align: center;
     font-size: 12px;
     margin-top: 10px;
+}
+
+.inline-block{
+    display: inline-block;
 }
 
 .border{
@@ -165,4 +197,14 @@ main{
 }
 .color-777{
     color: #777;
+}
+
+
+
+.font-size-12{
+    font-size: 12px;
+}
+
+.font-size-14{
+    font-size: 14px;
 }
