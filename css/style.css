@@ -50,6 +50,24 @@ h3{
     text-align: center;
     margin-top: 8px;
 }
+
+/* sidebar */
+.img-sidebar{
+    height: 30px;
+    margin-top: 15px;
+}
+
+.img-download{
+    height: 20px;
+}
+
+.profile{
+    height: calc(100% - 200px);
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
 /* content */
 
 /* header */
@@ -68,6 +86,7 @@ header{
     align-items: center;
 }
 .a-header{
+    margin-right: 10px;
     padding: 10px 30px;
     border-radius: 20px;
     text-decoration: none;
@@ -116,10 +135,6 @@ main{
     margin-top: 10px;
 }
 
-.img-sidebar{
-    height: 30px;
-    margin-top: 15px;
-}
 
 .subtitle{
     text-align: center;
