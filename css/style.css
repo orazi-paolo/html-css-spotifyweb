@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 img{
-    display: block;
+    display: inline-block;
     width: 100%;
 }
 
@@ -49,3 +49,17 @@ main{
     height: calc(100% + 100px);
 }
 
+/* utils */
+.logo{
+    height: 35px;
+    margin-top: 10px;
+}
+
+.img-sidebar{
+    height: 30px;
+    margin-top: 15px;
+}
+
+.color-777{
+    color: #777;
+}
