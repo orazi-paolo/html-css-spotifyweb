@@ -131,6 +131,18 @@ main{
     border: 1px solid white;
 }
 
+.txt-start{
+    text-align: start;
+}
+
+.mg-b-0{
+    margin-bottom: 0;
+}
+
+.mg-bottom-20{
+    margin-bottom: 20px;
+}
+
 
 
 .color-white{
