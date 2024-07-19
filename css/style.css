@@ -34,6 +34,8 @@ footer{
 }
 
 /* content */
+
+/* header */
 header{
     position: fixed;
     top: 0;
@@ -41,6 +43,17 @@ header{
     background-color: #090b12;
     height: 100px;
     width: calc(100vw - 80px);
+}
+
+.header-hd{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.a-header{
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
 main{
@@ -60,6 +73,14 @@ main{
     margin-top: 15px;
 }
 
+.border{
+    border: 1px solid white;
+}
+
+
+.color-white{
+    color: white;
+}
 .color-777{
     color: #777;
 }
