@@ -134,11 +134,23 @@ main{
 }
 
 .col-footer{
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100px;
-    padding-left: 10px;
     gap: 10px;
+    flex-basis: 30%;
+}
+.col-footer-right{
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    gap: 10px;
+    flex-basis: 30%;
+}
+.col-footer-max{
+    display: flex;
+    justify-content: center;
+    flex-basis: 40%;
 }
 
 .card-footer{
@@ -149,6 +161,27 @@ main{
     display: flex;
     gap: 10px;
 }
+
+.input-songs{
+    display: flex;
+    justify-content: center;
+}
+
+.border-white{
+    border: 2px solid white;
+    width: 25px;
+    height: 5px;
+    border-radius: 10px 0 0 10px;
+}
+
+.border-lightgray{
+    border: 2px solid lightgray;
+    width: 60px;
+    height: 5px;
+    border-radius: 0 10px 10px 0;
+}
+
+
 /* utils */
 
 .container-side-main{
@@ -157,6 +190,15 @@ main{
 
 .flex{
     display: flex;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.gap-20{
+    gap: 10px;
 }
 
 .logo{
@@ -182,6 +224,18 @@ main{
     text-align: start;
 }
 
+.pd-left-10{
+    padding-left: 10px;
+}
+
+.pd-right-10px{
+    padding-right: 10px;
+}
+
+.mg-t-20{
+    margin-top: 30px;
+}
+
 .mg-b-0{
     margin-bottom: 0;
 }
@@ -190,6 +244,21 @@ main{
     margin-bottom: 20px;
 }
 
+.mg-r-5{
+    margin-right: 5px;
+}
+
+.mg-r-10{
+    margin-right: 10px;
+}
+
+.mg-r-20{
+    margin-right: 20px;
+}
+
+.mg-r-40{
+    margin-right: 30px;
+}
 
 
 .color-white{
@@ -199,7 +268,13 @@ main{
     color: #777;
 }
 
+.font-weight-bold{
+    font-weight: bold;
+}
 
+.font-size-10{
+    font-size: 10px;
+}
 
 .font-size-12{
     font-size: 12px;
@@ -207,4 +282,8 @@ main{
 
 .font-size-14{
     font-size: 14px;
+}
+
+.width-100px{
+    width: 100px;
 }
