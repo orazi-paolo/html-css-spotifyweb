@@ -214,6 +214,14 @@ main{
     border-radius: 10px 0 0 10px;
 }
 
+.circle-white{
+    border: 1px solid white;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: none;
+}
+
 .border-lightgray{
     border: 2px solid lightgray;
     width: 60px;
@@ -410,3 +418,12 @@ main{
 .hover-img:hover .img-album{
     opacity: 0.5;
 }
+
+.hover-volume:hover .border-white{
+    border: 2px solid greenyellow;
+}
+
+.hover-volume:hover .circle-white{
+    display: block;
+}
+
