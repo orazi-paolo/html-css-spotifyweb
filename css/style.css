@@ -28,7 +28,9 @@ a{
     height: calc(100vh - 100px);
     flex-basis: 80px;
     background-color: black;
+    overflow: auto;
 }
+
 .content{
     flex-basis: 100%;
     overflow: auto;
@@ -209,6 +211,7 @@ main{
 
 .border-white{
     border: 2px solid white;
+    background-color: white;
     width: 25px;
     height: 5px;
     border-radius: 10px 0 0 10px;
@@ -421,6 +424,7 @@ main{
 
 .hover-volume:hover .border-white{
     border: 2px solid greenyellow;
+    background-color: greenyellow;
 }
 
 .hover-volume:hover .circle-white{
