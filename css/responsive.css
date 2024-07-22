@@ -1,0 +1,19 @@
+/* min pixel 566 */
+
+
+@media screen and (min-width: 640px){
+    .sidebar{
+        flex-basis: 300px;
+    }
+
+    .logo-small{
+        display: none;
+    }
+
+    .none{
+        display: block;
+    }
+    .width-100px{
+        width: 190px;
+    }
+}

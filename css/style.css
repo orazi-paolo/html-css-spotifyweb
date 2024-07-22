@@ -8,8 +8,12 @@ body{
     color: white;
 }
 img{
-    display: inline-block;
+    display: block;
     width: 100%;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* generics */
@@ -18,6 +22,8 @@ img{
 }
 
 .sidebar{
+    justify-content: space-between;
+    flex-direction: column;
     height: calc(100vh - 100px);
     flex-basis: 80px;
     background-color: black;
@@ -54,17 +60,33 @@ h3{
 /* sidebar */
 .img-sidebar{
     height: 30px;
-    margin-top: 15px;
 }
 
 .img-download{
     height: 20px;
 }
 
+.img-profile{
+    height: 25px;
+    background-color: #808080;
+    border-radius: 50%;
+}
+
 .profile{
-    height: calc(100% - 200px);
+    flex-grow: 1;
     justify-content: flex-end;
     flex-direction: column;
+}
+
+.fa-plus{
+    background-color: #a3a3a3;
+    padding: 10px;
+}
+
+.border-sidebar{
+    border: 1px solid #777;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 
 
@@ -72,12 +94,12 @@ h3{
 
 /* header */
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
-    right: 15px;
+    right: 0;
     background-color: #090b12;
     height: 100px;
-    width: calc(100vw - 80px);
+
 }
 
 .header-hd{
@@ -100,7 +122,7 @@ main{
 }
 
 .something{
-    margin-top: 120px;
+    margin-top: 20px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -188,8 +210,16 @@ main{
     padding: 10px;
 }
 
+.none{
+    display: none;
+}
+
 .flex{
     display: flex;
+}
+
+.align-center{
+    align-items: center;
 }
 
 .center{
@@ -201,9 +231,21 @@ main{
     gap: 10px;
 }
 
-.logo{
+.logo-small{
+    position: relative;
+    top: 0;
+    left: -8px;
     height: 35px;
     margin-top: 10px;
+}
+
+.logo-big{
+    position: relative;
+    top: 0;
+    left: -16px;
+    display: none;
+    margin-top: 10px;
+    height: 45px;
 }
 
 .subtitle{
@@ -232,6 +274,9 @@ main{
     padding-right: 10px;
 }
 
+.m-t-15{
+    margin-top: 15px;
+}
 .mg-t-20{
     margin-top: 30px;
 }
@@ -260,12 +305,20 @@ main{
     margin-right: 30px;
 }
 
+.mg-l-10{
+    margin-left: 20px;
+}
+
 
 .color-white{
     color: white;
 }
 .color-777{
     color: #777;
+}
+
+.color-black{
+    color: black;
 }
 
 .font-weight-bold{
@@ -282,6 +335,10 @@ main{
 
 .font-size-14{
     font-size: 14px;
+}
+
+.font-size-16{
+    font-size: 16px;
 }
 
 .width-100px{
