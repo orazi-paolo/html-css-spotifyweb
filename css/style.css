@@ -149,6 +149,15 @@ main{
     flex-basis: calc(100% / 2 - 10px);
 }
 
+.position-circle-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -32px;
+    margin-left: -32px;
+    display: none;
+}
+
 /* footer */
 
 .img-footer{
@@ -372,4 +381,30 @@ main{
 
 .width-100px{
     width: 100px;
+}
+
+/* hover */
+.hover-white:hover{
+    color: white;
+}
+
+.hover-white-underline:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.focus:hover{
+    font-size: 110%;
+}
+
+.focus-circle-play:hover{
+    font-size: 250%
+}
+
+.hover-img:hover .position-circle-img{
+    display: block;
+}
+
+.hover-img:hover .img-album{
+    opacity: 0.5;
 }
