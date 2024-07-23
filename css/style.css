@@ -431,3 +431,11 @@ main{
     display: block;
 }
 
+/* fix barra scorrimento play */
+.hover-volume:hover .width-100px{
+    width: 88px;
+}
+
+.hover-space:hover .border-lightgray{
+    width: 48px;
+}

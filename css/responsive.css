@@ -14,6 +14,9 @@
     .width-100px{
         width: 190px;
     }
+    .hover-volume:hover .width-100px{
+        width: 178px;
+    }
 }
 
 /* 870px */
@@ -25,6 +28,10 @@
     .width-100px{
         width: 260px;
     }
+
+    .hover-volume:hover .width-100px{
+        width: 248px;
+    }
 }
 
 /* min 1200 */
@@ -34,5 +41,9 @@
     }
     .width-100px{
         width: 560px;
+    }
+
+    .hover-volume:hover .width-100px{
+        width: 548px;
     }
 }
